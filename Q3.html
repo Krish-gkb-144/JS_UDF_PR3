@@ -1,0 +1,41 @@
+<script type="text/javascript">
+
+function check(){
+    var a = parseInt(prompt("Enter You no :-"));
+    var b = parseInt(prompt("Enter You no :-"));  
+    var c = parseInt(prompt("Enter You no :-"));
+    var d = parseInt(prompt("Enter You no :-"));
+
+    if (a > b) {
+        if (a > c) {
+            if (a > d) {
+                console.log("A is Big");
+            } else {
+                console.log("D is Big");
+            }
+        } else {
+            if (c > d) {
+                console.log("C is Big");
+            } else {
+                console.log("D is Big");
+            }
+        }
+    } else {
+        if (b > c) {
+            if (b > d) {
+                console.log("B is Big");
+            } else {
+                console.log("D is Big");
+            }
+        } else {
+            if (c > d) {
+                console.log("C is Big");
+            } else {
+                console.log("D is Big");
+            }
+        }
+    }
+}
+    check();
+
+</script>
