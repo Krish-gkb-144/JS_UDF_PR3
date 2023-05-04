@@ -72,29 +72,30 @@
     // }
 
     
-    function a(a) {
-        var a = parseInt(prompt("Enter value of A :- "))
-        return a;
+    var p = parseInt(prompt("Enter value of A :- "));
+    var q = parseInt(prompt("Enter value of B :- "));
+    var r = parseInt(prompt("Enter value of C :- "));
+
+    function a(p) {
+        return p;
     }
-    function b(b) {
-        var b = parseInt(prompt("Enter value of B :- "))
-        return b;
+    function b(q) {
+        return q;
     }
-    function c(c) {
-        var c = parseInt(prompt("Enter value of C :- "))
-        return c;
+    function c(r) {
+        return r;
     }
-    a = a(a);
-    b = b(b);
-    c = c(c);
-    if (a > b) {
-        if (a > c) {
+    var x = a(p);
+    var y = b(q);
+    var z = c(r);
+    if (x > y) {
+        if (x > z) {
             console.log("A is big");
         } else {
             console.log("C is big");
         }
     } else {
-        if (b > c) {
+        if (y > z) {
             console.log("B is big");
         } else {
             console.log("C is big");
